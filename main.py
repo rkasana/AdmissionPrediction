@@ -1,7 +1,7 @@
 # import necessary module
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS, cross_origin
-import pickle
+import pickle  # ML model
 
 app = Flask(__name__)  # initialize a flask app
 
